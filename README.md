@@ -40,7 +40,7 @@ This project requires Python and the packages listed in `requirements.txt`.
      if colab_run:
          from google.colab import drive
          drive.mount('/content/drive')
-         directory = '/content/drive/My Drive/DL_Assign_2/'
+         directory = '/content/drive/your_directory/'
      else:
          directory = ''
      ```
